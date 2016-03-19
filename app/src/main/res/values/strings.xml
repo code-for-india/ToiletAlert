@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ToiletAlert</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="message_network_connection_error">Network Connection Error</string>
+    <string name="message_network_not_available">Network not available</string>
+    <string name="title_activity_reports">Reports</string>
+
+</resources>

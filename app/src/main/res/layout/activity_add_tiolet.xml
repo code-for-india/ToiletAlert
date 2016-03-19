@@ -1,0 +1,80 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent">
+
+
+
+
+<EditText
+    android:layout_width="match_parent"
+    android:id="@+id/toiletName"
+    android:hint="Toilet Name"
+    android:singleLine="true"
+    android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/toiletAddress1"
+            android:hint="Address 1"
+            android:singleLine="true"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/toiletAddress2"
+            android:singleLine="true"
+            android:hint="Address 2"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/toiletCity"
+            android:hint="City"
+            android:singleLine="true"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/toiletDistrict"
+            android:hint="District"
+            android:singleLine="true"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/toiletState"
+            android:hint="State"
+            android:singleLine="true"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/toiletpin"
+            android:hint="Pin"
+            android:maxLength="6"
+            android:singleLine="true"
+            android:inputType="number"
+            android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Submit"
+                android:id="@+id/butttonSubmit"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
